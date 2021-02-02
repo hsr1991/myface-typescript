@@ -10,7 +10,7 @@ router.get('/', async (request, response) => {
     const pageSize = request.query.pageSize ? parseInt(request.query.pageSize as string) : 10;
 
     const postList = await getPageOfPosts(page, pageSize);
-    return response.render('post_list', postList);
+    return response.render('post_list', postList); //get list of posts
 });
 
 router.get('/create/', async (request, response) => {
