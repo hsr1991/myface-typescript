@@ -1,1 +1,93 @@
 /* Add your styles here. */
+
+@import"create_post.css";
+
+.allPosts {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.eachPost {
+    width: 33%;
+}
+
+img.postImage{
+    width: 90%;
+    margin: 0;
+}
+
+    h1   {
+        color: rgb(228, 61, 164);
+        text-decoration: underline;
+   
+    }
+ 
+
+    body {
+        background: linear-gradient(110deg, #9906ee 20%, #df75bb 20%, #9906ee 60%);
+        color: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .likes {
+        color: #106d13;
+    }
+
+    .dislikes {
+        color: #f10707
+    }
+
+    .dislikeButton {
+        background-color: #f10707; 
+        border: none;
+        border-radius: 20px;
+        color: orange;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .likeButton {
+        background-color: #106d13;
+        border: none;
+        border-radius: 20px;
+        color: orange;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    img.profilePic {
+
+          
+        
+    };
+
+    img.coverPic {
+        
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            font-size: large;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+    body {
+        
+        font-size: small;
+        
+    }
+    .eachPost {
+        width: 100%;
+    }
+    }
+   
+   
+    
