@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: large;
+    
+    }
+
+.allPosts {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+    .likes {
+        color: #106d13;
+    }
+
+    .dislikes {
+        color: #f10707
+    }
+
+    .dislikeButton {
+        background-color: #f10707; 
+        border: none;
+        border-radius: 20px;
+        color: orange;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .likeButton {
+        background-color: #106d13;
+        border: none;
+        border-radius: 20px;
+        color: orange;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+    }

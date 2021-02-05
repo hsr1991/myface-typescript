@@ -1,35 +1,111 @@
-/* Add your styles here. */
 
-@import"create_post.css";
+
+h2 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    top: 120px;
+}
+.coverPic {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    height: auto;
+
+};
+
+
 
 .allPosts {
     display: flex;
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
-
 }
 
 .eachPost {
     width: 33%;
 }
 
+.ownPosts {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    top: 160px;
+    
+}
+
+.individualsPost {
+    background-color: black;
+    margin-bottom: 70px;
+}
+
+.postPic {
+    width : 100%;
+}
+
+.userDetails {
+    font-size: 10px;
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+
+
+img.profilePic {
+    position: absolute;
+    size: 100%;
+    left: 5%;
+    width:20%;
+    top: 100px;
+    border-radius: 50%;
+    border: 5px solid #DCDCDC;
+};
+
+
+
+
+.userImages {
+    position: relative;
+}
+
+
+
+.emailAddress {
+font-weight: 300;
+  left: 80%;
+}
+
+.name {
+    size: 50%;
+    top: 20%;
+    left: 20%;
+}
+
+.username {
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+}
+
+
+
 img.postImage{
-    width: 90%;
+    width: 30%;
     margin: 0;
 }
 
     h1   {
-        color: rgb(228, 61, 164);
-        text-decoration: underline;
+        color: rgb(255, 255, 255);
    
     }
  
-
     body {
-        background: linear-gradient(110deg, #9906ee 20%, #df75bb 20%, #9906ee 60%);
-        color: yellow;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: #252a38;
+        color: #DCDCDC;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .likes {
@@ -61,17 +137,10 @@ img.postImage{
         display: inline-block;
         font-size: 16px;
     }
-
-    img.profilePic {
-
-          
-        
-    };
-
-    img.coverPic {
-        
-
+    userPosts {
+        color: pink
     }
+
 
     @media only screen and (max-width: 600px) {
         body {
@@ -88,6 +157,7 @@ img.postImage{
         width: 100%;
     }
     }
+    
    
-   
+
     
